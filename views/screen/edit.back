@@ -1,0 +1,93 @@
+<div id="content" class="g-w1190 g-margin-center blackboard-edit">
+    <h1 class="g-h1">
+        新增项目
+    </h1>
+
+    <form class="kuma-form" id="J_Form" data-widget="validator">
+        <!--如果有value 就是编辑-->
+        <input name="id" type="hidden" value=""/>
+        <fieldset>
+            <div class="kuma-form-item">
+                <label class="kuma-label">
+                    <span class="kuma-form-required">*</span>项目名称:
+                </label>
+                <input name="projectName" class="kuma-input" type="text">
+            </div>
+            <div class="kuma-form-item">
+                <label class="kuma-label">
+                    合作方工号:
+                </label>
+                <input name="coagentWorkNos" class="kuma-input" type="text" placeholder="">
+                <span class="kuma-form-other">六位工号</span>
+            </div>
+
+            <div class="kuma-form-item">
+                <label class="kuma-label">
+                    <span class="kuma-form-required">*</span>开始时间:
+                </label>
+                <input name="kickoffTime" class="kuma-input" id="J_StartCal" type="text">
+            </div>
+            <div class="kuma-form-item">
+                <label class="kuma-label">
+                    <span class="kuma-form-required">*</span>发布时间:
+                </label>
+                <input name="releaseTime" class="kuma-input" id="J_EndCal" type="text">
+            </div>
+            <div class="kuma-form-item">
+                <label class="kuma-label">
+                    <span class="kuma-form-required">*</span>项目组成员工号:
+                </label>
+                <input name="memberWorkNos" class="kuma-input" type="text">
+            </div>
+
+            <div class="kuma-form-item">
+                <label class="kuma-label">
+                    项目风险:
+                </label>
+                <textarea name="projectRisk" class="kuma-textarea"></textarea>
+            </div>
+            <div class="kuma-form-item">
+                <label class="kuma-label">
+                    <span class="kuma-form-required">*</span>项目阶段:
+                </label>
+                <input name="projectStage" class="kuma-input" type="text">
+            </div>
+            <div class="kuma-form-item">
+                <label class="kuma-label">
+                    <span class="kuma-form-required">*</span>项目状态:
+                </label>
+                <select name="projectState">
+                    <option value="1">红灯</option>
+                    <option value="2">绿灯</option>
+                    <option value="3">黄灯</option>
+                </select>
+            </div>
+
+            <div class="kuma-form-item">
+                <label class="kuma-label">
+                    PD工作内容:
+                </label>
+                <textarea name="pdWorkContent" class="kuma-textarea"></textarea>
+            </div>
+            <div class="kuma-form-item">
+                <label class="kuma-label">
+                    开发工作内容:
+                </label>
+                <textarea name="developWorkContent" class="kuma-textarea"></textarea>
+            </div>
+            <div class="kuma-form-item">
+                <label class="kuma-label">
+                    前端工作内容:
+                </label>
+                <textarea name="frontWorkContent" class="kuma-textarea"></textarea>
+            </div>
+            <div class="kuma-form-item">
+                <input type="submit" class="kuma-button kuma-button-mwhite" id="J_Submit" value="确 定">
+            </div>
+        </fieldset>
+    </form>
+</div>
+
+<script type="text/javascript">
+    seajs.use('platform/blackboard/1.0.0/modules/edit/index')
+</script>

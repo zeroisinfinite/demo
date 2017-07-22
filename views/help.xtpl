@@ -1,0 +1,185 @@
+
+{{extend ("./layout/default") }}
+{{#block ("content") }}
+	<style type="text/css">
+
+
+	</style>
+	<div class="yh-content">
+        <div class="yh-home-con">
+            <!-- yh-con的样式为通用样式 -->
+
+            <div class="yh-con visite">
+                
+                <!--*********************此处为内容新加：***************************-->
+                <div class="content" style="padding-left:0;padding-right:0">
+                <div class="help-title">
+                    <div class="help-title-left">尊享网络购买及递送服务</div>
+                    <div class="help-title-right">敬请致电 400-8070605（工作时间: 每天 10:00 - 20:00）</div>
+                </div>
+                <div class="help-con">
+                    <div class="help-con-hd">
+                        <!--on类为选中状态-->
+                        <span class="">产品保养</span><span class="on">常见问题</span>
+                    </div>
+                    <div class="help-con-bd">
+
+                    <!--产品保养-->
+                    <div class="help-tab">
+                        <h2>延长产品使用寿命</h2>
+                        <h3>产品保养</h3>
+                        <div class="description">
+                            <p>我们的产品具有一流的品质和极为精湛的制作工艺，因此我们在所有YOUHOO产品页面上均为您提供了相关的产品保养信息。</p>
+                            <p>您可以通过拨打 +400-8070605 联系我们的顾客服务中心或前往专卖店，获取更多YOUHOO产品保养信息。</p>
+                        </div>
+                    </div>
+
+                    <!--常见问题-->
+                    <div class="help-tab on">
+                        <h2>了解更多关于YOUHOO的信息</h2>
+                        <!--问题1-->
+                        <div class="informations">
+                            <div class="info-lists">
+                                <!--最外层标题-->
+                                <!-- <h3>如何联络YOUHOO</h3>
+                                <div class="info-more">
+                                    <h4>致电客户服务代表，或致函YOUHOO</h4>
+                                    <div class="info-details">
+                                        <p>如果您需要任何信息或帮助，请致电顾客服务中心：400-8070605。我们的专业服务人员非常乐意为您提供协助，帮助解答您的问题并为您提供产品购买建议。您也可以填写联络表单，通过电子邮件与我们联系。</p>
+                                    </div>
+                                </div> -->
+                                <!--最外层标题-->
+                                <h3>美瞳小常识</h3>
+                                <div class="info-more">
+
+                                    <h4>1、美瞳有什么颜色?</h4>
+                                    <div class="info-details">
+                                        <p>答：蓝色、紫色、巧克力色、黑色、灰色、金棕色。</p>
+                                    </div>
+
+                                    <h4>2、连续戴美瞳最长能戴多少小时?</h4>
+                                    <div class="info-details">
+                                        <p>答：美瞳的配戴时间尽量控制在每天8个小时内，不要戴着美瞳过夜。</p>
+                                    </div>
+                                    
+                                    <h4>3、隐形眼镜不近视能带吗?</h4>
+                                    <div class="info-details">
+                                        <p>答：可以，可以戴平光镜0度的镜片。</p>
+                                    </div>
+                                    
+                                    <h4>4、经常戴美瞳，眼睛要怎么护理?</h4>
+                                    <div class="info-details">
+                                        <p>答：一天控制在8个小时以内，而且不要天天配戴，空余出时间让眼睛自行修复一下，平水多眺望远方，做眼保健操等。</p>
+                                    </div>
+                                    
+                                    <h4>5、为什么感觉美瞳片没刚买时薄?</h4>
+                                    <div class="info-details">
+                                        <p>答：这是蛋白质沉积的结果，所以每天均须更新护理液体，最少要隔三天揉搓镜片仔细清洗一次，另外镜片也要注意是否已经过期。</p>
+                                    </div>
+                                    
+                                    <h4>6、坐飞机能戴美瞳么?</h4>
+                                    <div class="info-details">
+                                        <p>答：不要戴，因为在飞机上眼睛会受到机舱内干燥的空气以及气压等因素的影响，会使眼球表面的水分快速蒸发，美瞳片容易失水变干，会对眼睛造成极大危害。</p>
+                                    </div>
+                                    
+                                    <h4>7、化妆时，先化妆还是先戴美瞳?</h4>
+                                    <div class="info-details">
+                                        <p>答：先戴美瞳，这样可以避免化妆品污染镜片，引发眼球疾病。</p>
+                                    </div>
+                                    
+                                    <h4>8、戴美瞳可以直接滴眼药水吗?</h4>
+                                    <div class="info-details">
+                                        <p>答：不可以。有的含药的眼药水会沉积在美瞳片上摩擦角膜，引起角膜炎；而有的眼药水使用后会使美瞳片染色，从而影响镜片的透光率和屈光度数，导致镜片模糊。润眼液可以直接滴，但是 尽量少用。</p>
+                                    </div>
+                                    
+                                    <h4>9、美瞳选择季抛好还是年抛?</h4>
+                                    <div class="info-details">
+                                        <p>答：季抛。虽然喜爱美瞳的姑娘都会选择年抛，因为都觉得特别好戴，甚至一些直径特大、超大眼效果的美瞳都是年抛型的，但是含水量达到38%的年抛型眼镜是最古老的材质，透氧性非常差，而且反复佩戴，会产生大量的蛋白质沉淀，非常不干净。</p>
+                                    </div>
+
+                                </div>
+                                <!--最外层标题-->
+                                <h3>美瞳镜片护理</h3>
+                                <div class="info-more">
+
+                                    <h4>1、美瞳片适合用什么样的护理液?</h4>
+                                    <div class="info-details">
+                                        <p>答：美瞳片护理液一定要看保湿剂，市场上保湿功能比较好的护理液主要采用了羟丙基甲基纤维素（HPMC）和丙二醇（PG）这两种成分。其次要看这款护理液容不容易结晶，摸一下你的镜盒底，或者看平时放镜盒的桌面有没有像盐一样的沉积物，容易结晶的护理液会伤害角膜。</p>
+                                    </div>
+
+                                    <h4>2、能否用手搓洗镜片?</h4>
+                                    <div class="info-details">
+                                        <p>答：可以。隐形眼镜要经手搓洗30秒以上，才可达到清洁效果，但是搓洗的时候一定要轻柔，避免指甲划伤镜面。研究报告指出，由手搓洗镜片，比任何机器更能有效去除镜片上的杂质及沉淀物。另外，自来水或开水没有清洁消毒作用，不可用来清洗隐形眼镜。</p>
+                                    </div>
+                                    
+                                    <h4>3、不同厂牌的隐形眼镜能否交互使用?</h4>
+                                    <div class="info-details">
+                                        <p>答：不能。因为各厂牌药水种类成分不同，混合使用或随意更换容易产生起化学作用，既而伤害镜片。其实，目前为止，眼科医师均认为，并没有任何一种隐形眼镜药水是完全没有副作用的。</p>
+                                    </div>
+
+                                    <h4>4、美瞳片能否在护理液中长时间浸泡?</h4>
+                                    <div class="info-details">
+                                        <p>答：不能。很多人刚买了美瞳不经常戴，就打算把护理液灌装到原装玻璃瓶里封存起来，实际上这样的做法是错误的。护理液放久了之后抑菌作用会消失，而且挥发掉水分后还会结晶，是不能用来长时间浸泡美瞳片的，必须每周更换新的护理液。</p>
+                                    </div>
+                                    
+                                    <h4>5、隐形眼镜干了该不该扔?</h4>
+                                    <div class="info-details">
+                                        <p>答：扔。隐形眼镜本身比较脆弱，干了更脆弱，很容易造成裂痕。虽然泡了护理液之后看上去和之前没有什么区别，但是如果继续佩戴，很有可能会划伤眼睛。</p>
+                                    </div>
+                                    
+                                    <h4>6、两片镜片粘在一起，怎么办?</h4>
+                                    <div class="info-details">
+                                        <p>答：若两片隐形镜片粘一起，可以将两片隐形眼镜放在温水里浸泡一会儿，隐形眼镜就会自行分开，需要注意的是，水的温度不能太高，一般15-25度即可。若水温太高会损害镜片。</p>
+                                    </div>
+                                    
+                                    <h4>7、美瞳开封后能不能直接带?</h4>
+                                    <div class="info-details">
+                                        <p>答：不能。开封后的美瞳一般要在护理液中浸泡到6小时以上才能起到护理的作用。浸泡后必须搓洗一次镜片才能佩戴，如果是透氧率或含水量较高的镜片浸泡时间可以稍微短一些，最好浸泡3个小时以上再戴。</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--一个问题结束-->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+            </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+        jQuery(document).ready(function(){
+            var $ = jQuery;
+            var tabHd=$('.help-con-hd span');
+            var tabBd=$('.help-con-bd .help-tab');
+              //选项卡切换
+            tabHd.each(function(n){
+                $(this).click(function(){
+					tabHd.removeClass('on');
+					$(this).addClass('on');
+					tabBd.removeClass('on');
+					tabBd.eq(n).addClass('on');
+                });
+            });
+
+            //常见问题展开显示
+            var titH3=$('.informations h3')
+            var titH4=$('.info-more h4');
+            show(titH3);
+            show(titH4);
+
+            function show(hd){
+                hd.toggle(function(){
+                    var bd=$(this).next();
+                    bd.show(200);
+                    $(this).addClass('open');
+                },function(){
+                    var bd=$(this).next();
+                    bd.hide(200);
+                    $(this).removeClass('open');
+                });
+            }
+        })
+    </script>
+{{/block}}

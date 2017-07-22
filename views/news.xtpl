@@ -1,0 +1,29 @@
+{{set (jsName="index",cssName="projlist") }}
+{{extend ("./layout/default") }}
+{{#block ("content") }}
+<style type="text/css">
+    .main-item{padding: 20px 80px;}
+    .news-tile{line-height: 22px;}
+    .content-view{line-height: 2;letter-spacing: 2;}
+    .content-view img{margin: 0 auto;}
+    .content-view p{margin: 20px 0;text-indent:36px;}
+    .yellow{font-weight: bold;}
+</style>
+  <div class="main-item">
+    <div class="news-tile"> 
+      <span class="">新闻资讯 > </span> 
+      <span>潮牌美瞳“號外YOUHOO”正式进入中国</span>
+      <a href="#"></a>
+    </div>
+
+    <!-- 轮播广告 --> 
+    <div class="content-view"> 
+      <p style="text-indent:0px;"><em class="yellow">导语: </em>香港中環國際有限公司，成立於2013年。是一家涉及多行业领域的大型集团。公司自创立以来，规模不断扩大，产品品种年年增加，经济效益日益提高。现已发展成为香港著名企业。</p>
+      <img src="/imgFile/version2/news/002.jpg" alt="" /> 
+      <p>旗下多种品牌连连获奖。荣获2013中国互联网最具潜力十佳品牌，2014中国互联网十佳品牌，2014运动户外排名第三，家居荣勇线上排名第九等称号。香港中環國際有限公司分公司遍布香港和大陆，拥有约1万5千余名员工。旗下产品有美瞳，保温杯，运动器材，箱包服饰类等等。</p>
+      <img src="/imgFile/version2/news/003.jpg" alt="" /> 
+      <p>香港中環國際有限公司是目前香港市场上集综合性、创新性为一体的公司。产品主要销往香港和欧美地区。目前正在逐步进军大陆。进军第一步首先放在了光学眼镜领域。杭州涉吉光学有限公司作为香港中環國際的大陆经销商。主营號外YOUHOO美瞳，YOUHOO是源自于香港的彩色隐形眼镜潮牌。在香港、日本、台湾等地拥有大批忠诚的粉丝。</p>
+    </div> 
+  </div>
+
+{{/block}}

@@ -1,0 +1,9 @@
+{{set (jsName="index",cssName="projlist") }}
+{{extend ("./layout/default") }}
+{{#block ("content") }}
+	<script type="text/javascript">
+		seajs.use(['youhoo/js/mods/aboutus/module.js'],function(Mod){
+		  Mod.init();
+		})
+	</script> 
+{{/block}}

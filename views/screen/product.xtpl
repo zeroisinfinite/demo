@@ -1,0 +1,409 @@
+<link href="/style/productSheet.css"
+      media="screen, projection" rel="stylesheet" type="text/css"/>
+<style type="text/css">
+
+.popinContent{width:100%;margin-bottom:10px;-webkit-overflow-scrolling:touch;}
+
+
+.price-sheet{font-family:'LouisVuitton-N',sans-serif;}html.ASIA .price-sheet{font-family:'LouisVuitton-N',Asian,sans-serif;}
+
+.priceButton{border:1px solid #c8a985;color:#c8a985;width:100%;border-spacing:0px;margin-top:10px;height:36px;}.priceButton .labelPrice{background-color:#c8a985;color:#ffffff;text-align:center;text-transform:uppercase;}.priceButton .labelPrice .hasMessage{cursor:default;}
+.priceButton .labelPrice .callForAvailability{cursor:pointer;}
+.priceButton .labelPrice a{color:#ffffff;}
+#priceBtnMsg,#hiddenPriceBtnMsg{color:#c8a985;margin-bottom:10px;text-transform:uppercase;}
+#pickupShopHolder{color:#c8a985;margin-bottom:10px;}
+.priceBtnWishlistMsg{color:#c8a985;margin-bottom:10px;text-transform:uppercase;}
+.priceValue{text-align:center;}
+
+  .slide {
+    /* Required Styles */
+    position:relative;
+    width:550px;
+    height:310px;
+    overflow:hidden;
+    margin: 0 auto;
+    border:10px solid #444;
+    border-radius:5px;
+    box-shadow:0 0 6px rgba(0, 0, 0, .4);
+  }
+  .slide img {
+    display:block;
+    width:550px;
+    height:310px;
+  }
+  .slide img {
+    position:absolute;
+  }
+  .switchable-triggers {
+    width:570px;
+    height:30px;
+    overflow-y:hidden;
+    line-height:30px;
+    text-align:center;
+    position: absolute;
+    right: 3px;
+    bottom: 6px;
+  }
+  .switchable-triggers li {
+    display: inline-block;
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin: 0 3px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, .7);
+    color: #444;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    cursor: pointer;
+    *display: inline;
+    *zoom: 1;
+  }
+  .switchable-triggers li.current {
+    background: rgba(138, 181, 22, .7);
+    color: #fff;
+  }
+  .button {
+      width: 100%;
+      height: 32px;
+      margin-top: 10px;
+      text-align: center;
+  }
+@media (max-width : 767px) {
+.switchable-triggers {width: 340px;}
+.slide,.slide img{width: 330px;height: 186px;}
+.productPictures img{width: 330px;}
+}
+</style>
+<script type="text/javascript" src="../lib/jquery/switchable/switchable-2.0.min.js"></script>
+  <div class="contentWrapper"> 
+
+   <div id="mainPictureBlock"> 
+
+    <div class="slide" id="slide-box">
+      <ul class="J-img-container"></ul>
+      <ul class="switchable-triggers"></ul>
+    </div>
+    <div class="button">
+      <a href="#" id="j-button">Pause</a>
+    </div>
+
+    <ul id="productPictures" class="productPictures imageContainer onlyML clearfix"> 
+    </ul> 
+   </div> 
+
+   <div id="infoProductBlock"> 
+    <div id="infoProductBlockTop"> 
+     <div class="productName title" id="productName"> 
+      <h1 itemprop="name">Ascot 钱夹</h1> 
+     </div> 
+     <!-- <meta itemprop="identifier" content="sku:N63171" />  -->
+     <!-- <h2 class="sku reading-and-link-text"> N63171 </h2>  -->
+     <div id="productDescriptionSeeMore" class="productDescription description-push-text onlyAS">
+       特以路易威登经典的 Damier 帆布和 Nomade 小牛皮两种卓越材质制成的 Ascot 钱夹可与 Ascot 手袋和手包搭配使用。 该钱夹设计优雅而极具实用，其与众不同的角锁设计灵感来自于加斯顿-路易威登在 20 世纪 30 年代设计的一件作品。 
+     </div> 
+     <div id="expanderMoreLess" class="onlyAS"> 
+      <div id="seeMore" class="description-push-text">
+        展开产品详情 
+      </div> 
+      <div id="seeLess" class="description-push-text">
+        收起产品详情 
+      </div> 
+     </div> 
+     <div id="attributePanelOpenedWrapper"> 
+      <div class="moreChoicesWrapper mustBeCollapsed" style="display: none;"> 
+      </div> 
+     </div> 
+     <table class="priceButton" style="visibility: visible;"> 
+      <tbody style="opacity: 1;">
+       <tr> 
+        <td class="priceValue price-sheet"> &yen;11,300 </td> 
+        <td class="arrow-right unset bound" style="border-top-width: 16px; border-bottom-width: 16px; border-left-width: 16px;"> </td> 
+        <td class="labelPrice price-sheet-adapt"> 
+          <script type="text/javascript">
+            // showPriceButton(); TODO Here mark
+          </script> 
+         <div class="onlyML"> 
+          <div style="display: none;" id="callForAvailability"> 
+           <div class="popinTitle"> 
+            <div>
+              致电查询 
+            </div> 
+           </div> 
+           <div class="horizontalLineTop"></div> 
+           <div id="purchaseContent"> 
+            <div id="purchaseWrapper"> 
+             <div class="chapterTitle">
+               致电我们 
+             </div> 
+             <div class="chapterContent">
+               拨打顾客服务中心电话 400 6588 555（每天10:00 - 20:00），时尚顾问可即时协助您了解产品信息。
+              <br />
+              <br /> 
+             </div> 
+             <div class="chapterTitle">
+               前往专卖店 
+             </div> 
+             <div class="chapterContent">
+               欢迎莅临路易威登中国大陆地区各大专卖店购买。点击
+              <a href="/zhs-cn/stores/china">此处</a>寻找就近专卖店。
+              <br />
+              <br /> 
+             </div> 
+             <div class="clear"></div> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+         <div class="onlyAS">
+          <a id="callForStoreRedirection" class="tagClick" href="/youhoo/buy"> <span> </span></a>
+          <a href="/youhoo/buy">微信购买</a>  
+          <!-- <a id="callForStoreRedirection" class="tagClick" href="tel:4006588555"> <span> </span></a>
+          <a href="tel:4006588555">致电查询</a>  -->
+         </div> </td> 
+       </tr> 
+      </tbody>
+     </table> 
+     <span id="priceBtnMsg" class="contact-description" style="display:none"></span> 
+     <div class="momAddPadding"> 
+      <table id="backOrderFormHolder" class="backOrderButton hide"> 
+       <tbody>
+        <tr> 
+         <td class="backOrderLabel">key:global_backorder_delay_message</td> 
+         <td class="icon-24-help-gold" data-dom="#backOrderPopin" data-width="60%"> 
+          <div id="backOrderPopin" style="display: none;"> 
+           <div class="popinTitle">
+             key:global_backorder_info_popin_title 
+           </div> 
+           <div class="horizontalLineTop"></div> 
+           <div class="popinWrapper"> 
+            <div class="popinContent">
+              key:global_backorder_info_popin_content 
+            </div> 
+           </div> 
+          </div> </td> 
+        </tr> 
+       </tbody>
+      </table> 
+      <!-- 
+      <div class="sharingButtons"> 
+       <div id="shareButton" class="functional-link"> 
+        <div class="bubbleShareOpened"></div> 
+        <span id="buttonShare" class="shareButton greyButton tagClick" data-sku="N63171"> 分享 </span> 
+        <div id="sharingBubble" class="sharingBubble"> 
+         <div class="relative"> 
+          <div class="closeButton"></div> 
+          <div class="sharingBubbleContentWrapper"> 
+           <div class="share"> 
+            <a target="_blank" class="share-weibo notLink tagClick" data-network="weibo" data-href="http://service.weibo.com/share/share.php?title=了解@路易威登 精湛工艺，探索更多产品详情： Ascot 钱夹&amp;url=http://www.louisvuitton.cn/zhs-cn/products/ascot-wallet-damier-ebene-007252"> 
+             <div class="share-item-icon"> 
+              <div class="shareWeibo"></div> 
+             </div> </a> 
+            <a class="share-mail tagClick" data-sharevalue="" data-link="http://www.louisvuitton.cn/zhs-cn/products/ascot-wallet-damier-ebene-007252" data-subject="探索此款路易威登产品" data-msg="亲爱的朋友，%0A%0A敬请浏览以下路易威登产品详情：%0A%0A产品名称：Ascot 钱夹 %0A官网链接：[short_url]"> 
+             <div class="sharingItemIcon"> 
+              <div class="shareByemail"></div> 
+             </div> </a> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+       -->
+     </div> 
+    </div> 
+    <div class="infoProductBlockBottom"> 
+     <div id="clickToCall" class="clickToCall tagClick"> 
+      <a href="tel:4006588555" class="ctcContainer onlyAS"> 
+       <table> 
+        <tbody> 
+         <tr> 
+          <td> 
+           <div class="icon-40-click-to-call"></div> </td> 
+          <td> 
+           <div class="contactTitle functional-link">
+             请致电 +86 400 6588 555 
+           </div> 
+           <div class="contactDescription contact-description"> 
+           </div> </td> 
+         </tr> 
+        </tbody> 
+       </table> </a> 
+     </div> 
+     <!-- START IADVIZE HTML CALLBACK --> 
+     <div id="liveChat" class="iconicLiveChatHolder idz_btn_fix tagClick"> 
+      <div class="liveChatOnline iconicLiveChatOnline idz_widget" style="display: none;"> 
+       <a href="javascript:void(0)" class="blockElmt"> 
+        <table> 
+         <tbody> 
+          <tr> 
+           <td> 
+            <div class="icon-40-transparent-orange-live-chat"></div> </td> 
+           <td> 
+            <div class="functional-link liveChatOnlineTxt">
+              与您的时尚顾问即时互动 
+            </div> </td> 
+          </tr> 
+         </tbody> 
+        </table> </a> 
+      </div> 
+     </div> 
+     <!-- END IADVIZE HTML CALLBACK --> 
+     <div id="attributePanelClosedWrapper"> 
+      <div id="productDescription" class="attributePanelClosed "> 
+       <div id="productDescriptionMenu" class="openerTab panelOpener tagClick titleClientInfo functional-link         titlePanel exp_title clientInfoExpand bound" data-target="textClientInfo_productDescription" data-group="textClientInfo" data-binded="true"> 
+        <div data-labelkey="product_page_detailed_features" class="">
+          详细特征 
+        </div> 
+        <br /> 
+       </div> 
+       <div class="textClientInfo exp_content" id="textClientInfo_productDescription"> 
+        <ul class="innerContent functional-text">
+
+         <li> 20&nbsp;x 11&nbsp;x 3 cm </li> 
+         <li> (长&nbsp;x 高&nbsp;x 宽) </li>
+         <br /> 
+         <li>- 闪亮的金色黄铜配件</li>
+         <li>- Nomade 皮革饰边</li>
+         <li>- 勃艮第超细纤维内衬</li>
+         <li>- 可脱卸Damier 帆布袋</li>
+         <li>- 3 个接裆式大隔层</li>
+         <br /> 
+        </ul> 
+       </div> 
+      </div> 
+      <!-- hotstampable = false --> 
+      <!-- isMoM = false --> 
+     </div> 
+     <div> 
+      <div class="borderBottom"> 
+       <!-- <div id="clientService_1" data-detail="customer_service" class="titleClientInfo openerTab functional-link tagClick" data-dom="#helpPopin" data-class="accordionPopin" data-issecure="false" data-width="60%" data-scrolltop="true" data-callbackbeforeopen="resetActiveTab();switchTab('customer_service');" data-id="customer_service" data-preventscroll="true"> 
+        <div data-labelkey="" class="">
+          顾客服务 
+        </div> 
+        <br /> 
+       </div> --> 
+       <div id="" > 
+        <br />
+        <b>关注我们：</b>  <a href="http://www.weibo.com/youhoo" target="_blank" style="color:#c8a985;">官方微博</a>
+        <br />
+        <br />
+        <b>工作时间：</b>  每天: 10:00 - 20:00 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+
+  </div>
+  <!-- The folowing should in a js file! -->
+<script type="text/javascript">
+    jQuery(document).ready(function(){
+        var $ = jQuery;
+
+        function init(){
+            var params = YouHooUtils.parseAnchor();
+            console.log(params);
+            params && params.tid && doSearchData(params.tid)
+        }
+        function doSearchData(productId) {
+            //异步请求，需加loading中的显示
+            $.ajax({
+                url: myConfig.searchProduct
+                ,type: "get"
+                ,dataType: "json"
+            })
+            .done(function (data) {
+                var _html = "";
+                // baseUrl ../images/upload/product/101/switch/
+                console.log("==searchProduct== ",data)
+                for (var i = 0; i < data.length; i++) {
+                  var _obj = data[i];
+                  if (_obj.id == productId) {
+                    renderView(_obj);
+                  };
+                };        
+                
+            })
+            .error(function (d) {
+            })
+            .always(function () {
+            });
+        }    
+        /**
+         *  <img src="../images/demo/p1.jpg" style="opacity: 1; z-index: 7;">
+         * "price": 1356.00,
+         * "keyWords":["防干涩、防缺氧、抗疲劳","防辐射功能","真空密封保存,全程除菌"],
+         * "detailUrls"  : ["20150722115648_5468.jpg","20150722115648_5468.jpg"],
+         * "switchUrls" : ["p1.jpg","p2.jpg","p3.jpg","p4.jpg","p5.jpg"]
+         */   
+        function renderView(obj) {
+          var _basePath = '../images/upload/product/101/';
+          // var _basePath2 = '../imgFile/version2/product/';
+          obj.price && $('#infoProductBlockTop').find('.priceValue').html(obj.price);
+          obj.title && $('#productName').find('h1').html(obj.title);
+          if (obj.keyWords && obj.keyWords.length) {
+            var _html = "";
+            for (var i = 0; i < obj.keyWords.length; i++) {
+              _html += '<li>- '+ obj.keyWords[i] +'</li>';
+            };
+            $('#productDescription').find('.functional-text').html(_html+ "<br>");  
+          };
+          if (obj.switchUrls && obj.switchUrls.length) {
+            var _html = "";
+            for (var i = 0; i < obj.switchUrls.length; i++) {
+              _html += '<img src="'+ _basePath + "switch/" + obj.switchUrls[i] +'" style="opacity: '+(i?1:1)+'; z-index: '+(i?7:1)+';">';
+            };
+            $('#slide-box .J-img-container').html(_html); 
+            
+            setTimeout(function(e){
+              // the following should be after picView render
+              doSwitchPicView();
+            },500)
+            
+          }
+          //<li> <img src="../images/upload/product/101/detail/20150722115648_5468.jpg"> </li>
+          if (obj.detailUrls && obj.detailUrls.length) {
+            var _html = "";
+            for (var i = 0; i < obj.detailUrls.length; i++) {
+              _html += '<li> <img src="'+ _basePath + "list/" + obj.detailUrls[i] +'" </li>';
+            };
+            $('#productPictures').html(_html);  
+          };
+        }
+        function doSwitchPicView() {
+          var Slide = $('#slide-box').switchable({
+            putTriggers: 'appendTo',
+            panels: 'li',
+            initIndex: -1, // display the last panel
+            effect: 'scrollRight', // taking effect when autoplay == true
+            easing: 'cubic-bezier(.455, .03, .515, .955)', // equal to 'easeInOutQuad'
+            end2end: true, // if set to true, loop == true
+            loop: false, // not taking effect, because end2end == true
+            autoplay: true,
+            interval: 5,
+            api: true // if set to true, Switchable returns API
+          }).pause();
+
+          var btn = $('#j-button');
+          btn.click(function(e){
+            e.preventDefault();
+
+            if ( Slide.paused ) {
+              Slide.play();
+              btn.text('Pause');
+            }
+            else {
+              Slide.pause();
+              btn.text('Play');
+            }
+          });
+          // $('#slide-box').switchable({
+          //   triggers: '&bull;',
+          //   effect: 'fade'
+          // });
+        }
+        init();
+    })
+</script>

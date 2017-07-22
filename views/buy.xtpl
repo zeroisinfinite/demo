@@ -1,0 +1,21 @@
+{{extend ("./layout/default") }}
+{{#block ("content") }}
+	<style type="text/css">
+	html,body,#body,#content,.yh-content, .yh-content div{}
+	.yh-new-jj{height: 258px;width: 258px; background-image: url(../images/common/20151007165012_1406buy.jpg); background-size: cover; background-position: 50% 0%;margin-bottom: 100px;}
+	.yh-home-con{padding: 0;}
+	.yh-con{padding: 10px;}
+	</style>
+    <div class="yh-content">
+		<div class="yh-home-con">
+				<!-- yh-con的样式为通用样式 -->
+
+			<div class="yh-con visite">
+			    <nav class="yh-new" data-filter="" data-url="/zhs-cn/lv-now"></nav>
+                <div class="yh-new-jj">
+                    <div style="text-align: center;"></div>
+				</div>
+            </div>
+		</div>
+	</div>
+{{/block}}

@@ -1,0 +1,152 @@
+<div id="content" class="g-w1190 g-margin-center blackboard-edit">
+    <a href="/"><h1 class="g-title g-logo g-center"></h1></a>
+    <div class="contentwrap fn-clear">
+        <a href="/projx" class="g-link-2">返回项目列表</a>
+        {{#if (canDelete)}}
+            <a id="J_DeleteProject" data-id="{{data.projId}}" href="javascript:void(0);">删除项目</a>
+        {{/if}}
+        <form class="kuma-form" id="J_Form" data-widget="validator">
+            <!--如果有value 就是编辑-->
+            <fieldset>
+                <div class="kuma-form-item">
+                    <label class="kuma-label">
+                        <span class="kuma-form-required">*</span>项目名称:
+                    </label>
+                    <input name="name" class="kuma-input" type="text" value={{data.name}}>
+                </div>
+
+                <div class="kuma-form-item">
+                    <label class="kuma-label">
+                        项目描述:
+                    </label>
+                    <input name="proDesc" class="kuma-input" type="text" placeholder="" value={{data.proDesc}}>
+                </div>
+
+                <div class="kuma-form-item">
+                    <label class="kuma-label">
+                        <span class="kuma-form-required">*</span> PM:
+                    </label>
+                    <input name="pm" class="kuma-input J_AtTrigger" autocomplete="off" type="text" placeholder=""
+                           value={{data.pm}}>
+                </div>
+
+                <div class="kuma-form-item">
+                    <label class="kuma-label">
+                        合作方:
+                    </label>
+                    <input name="partner" class="kuma-input J_AtTrigger" autocomplete="off" type="text" placeholder=""
+                           value={{data.partner}}>
+                </div>
+
+                <div class="kuma-form-item">
+                    <label class="kuma-label">
+                        技术Leader:
+                    </label>
+                    <input name="tpm" class="kuma-input J_AtTrigger" autocomplete="off" type="text" placeholder=""
+                           value={{data.tpm}}>
+                </div>
+
+
+                <div class="kuma-form-item">
+                    <label class="kuma-label">
+                        <span class="kuma-form-required">*</span>开始时间:
+                    </label>
+                    <input name="gmtBegin" class="kuma-input" id="J_StartCal" type="text" value={{data.gmtBegin}}>
+                </div>
+
+                <div class="kuma-form-item">
+                    <label class="kuma-label">
+                        <span class="kuma-form-required">*</span>最近修改时间:
+                    </label>
+                    <input name="gmtModified" class="kuma-input" id="J_ModifyCal" type="text" value={{data.gmtModified}}>
+                </div>
+
+
+                <div class="kuma-form-item">
+                    <label class="kuma-label">
+                        <span class="kuma-form-required">*</span>发布时间:
+                    </label>
+                    <input name="gmtComplete" class="kuma-input" id="J_EndCal" type="text" value={{data.gmtComplete}}>
+                </div>
+
+                <div class="kuma-form-item">
+                    <label class="kuma-label">
+                        项目组成员:
+                    </label>
+
+                    <textarea name="members" class="kuma-textarea J_AtTrigger"
+                              autocomplete="off">{{data.members}}</textarea>
+
+                </div>
+
+                <div class="kuma-form-item">
+                    <label class="kuma-label">
+                        <span class="kuma-form-required">*</span>项目阶段:
+                    </label>
+                    <input name="phase" class="kuma-input" type="text" value={{data.phase}}>
+                </div>
+                <div class="kuma-form-item">
+                    <label class="kuma-label">
+                        <span class="kuma-form-required">*</span>项目当前阶段:
+                    </label>
+                    <label class="label-status label-status-red"><input type="radio" name="status" value="red"
+                                                                        {{#if (data.status === "red")}}checked{{/if}}/>红灯</label>
+                    <label class="label-status label-status-green"><input type="radio" name="status" value="green"
+                                                                          {{#if (data.status === "green")}}checked{{/if}}/>绿灯</label>
+                    <label class="label-status label-status-yellow"><input type="radio" name="status" value="yellow"
+                                                                           {{#if (data.status === "yellow")}}checked{{/if}}/>黄灯</label>
+                    <!--
+                <select name="status">
+                    <option value="red" {{#if (data.status === "red")}}selected{{/if}}>红灯</option>
+                    <option value="green" {{#if (data.status === "green")}}selected{{/if}}>绿灯</option>
+                    <option value="yellow" {{#if (data.status === "yellow")}}selected{{/if}}>黄灯</option>
+                </select>
+                -->
+                </div>
+
+                <div class="kuma-form-item">
+                    <label class="kuma-label">
+                        项目风险:
+                    </label>
+                    <textarea name="riskReason" class="kuma-textarea">{{data.riskReason}}</textarea>
+                </div>
+
+
+                <div class="kuma-form-item">
+                    <label class="kuma-label">
+                        PD工作内容:
+                    </label>
+                    <textarea name="pdWContent" class="kuma-textarea J_AtTrigger" autocomplete="off">{{data.pdWContent}}</textarea>
+                </div>
+                <div class="kuma-form-item">
+                    <label class="kuma-label">
+                        开发工作内容:
+                    </label>
+                    <textarea name="devWContent" class="kuma-textarea J_AtTrigger" autocomplete="off">{{data.devWContent}}</textarea>
+                </div>
+                <div class="kuma-form-item">
+                    <label class="kuma-label">
+                        前端工作内容:
+                    </label>
+                    <textarea name="feWContent" class="kuma-textarea J_AtTrigger" autocomplete="off">{{data.feWContent}}</textarea>
+                </div>
+
+                <div class="kuma-form-item">
+                    <label class="kuma-label">
+                        QA工作内容:
+                    </label>
+                    <textarea name="qaWContent" class="kuma-textarea J_AtTrigger" autocomplete="off">{{data.qaWContent}}</textarea>
+                </div>
+                <div class="kuma-form-item">
+                    <input type="hidden" name="projId" value="{{data.projId}}"/>
+                    <input type="submit" class="kuma-button kuma-button-mwhite" id="J_Submit" value="确 定">
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</div>
+
+<script type="text/javascript">
+    seajs.use('projx/js/mods/dashboard.proj.edit/index.js')
+</script>
+

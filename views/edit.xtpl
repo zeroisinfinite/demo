@@ -1,0 +1,5 @@
+{{set (jsName="edit") }}
+{{extend ("./layout/default") }}
+{{#block ("content") }}
+    {{{include ("./screen/edit") }}}
+{{/block}}

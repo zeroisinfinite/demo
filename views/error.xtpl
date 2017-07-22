@@ -1,0 +1,5 @@
+{{set (jsName="edit") }}
+{{extend ("./layout/default") }}
+{{#block ("content") }}
+    <h1>404</h1>
+{{/block}}

@@ -1,0 +1,36 @@
+<script type="text/javascript">
+    seajs.config({
+        vars: {
+            "locale": "zh-CN"
+        },
+        paths: {
+            "alinw": "//g-assets.daily.taobao.net/alinw",
+            "platform": "//g-assets.daily.taobao.net/platform",
+            "projx": "//" + location.host
+        },
+        alias: {
+            "seajs-debug": "seajs/seajs-debug/1.0.0/seajs-debug",
+            "$": "jquery/jquery/1.7.2/jquery",
+            "jquery": "jquery/jquery/1.7.2/jquery",
+            "_": "gallery/underscore/1.6.0/underscore",
+            "widget": "arale/widget/1.1.1/widget",
+            "dialog": "alinw/dialog/2.0.3/dialog",
+            "confirmbox": "alinw/dialog/2.0.3/confirmbox",
+            "hovercard": "alinw/hovercard/2.0.3/hovercard",
+            "store": "gallery/store/1.3.14/store",
+            "pagination": "alinw/pagination/2.0.6/pagination",
+            "dnd": "arale/dnd/1.0.0/dnd",
+            "select": "alinw/select/2.0.2/select",
+            "validator": "alinw/validator/3.0.2/validator",
+            "upload": "alinw/upload/2.0.5/upload",
+            "tip": "alinw/tip/2.0.2/tip",
+            "calendar": "alinw/calendar/1.1.3/calendar",
+            "calendarCss": "alinw/calendar/1.1.3/calendar.css",
+            "at": "alinw/at/1.1.8/at"
+        },
+        // 预加载项
+        preload: [
+            'jquery'
+        ]
+    })
+</script>

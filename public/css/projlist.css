@@ -1,0 +1,245 @@
+/* platform.blackboard style module */
+
+.g-w1190 {
+    width: 1132px;
+}
+
+body {
+    background-color: #f4f4f4;
+    /*
+    background: url('//aliwork.alicdn.com/tps/i2/TB1J.SnGVXXXXaeaXXX0GIYUFXX-1920-1024.png') no-repeat fixed center top transparent;
+    */
+}
+
+.g-margin-center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.g-title {
+    font-size: 20px;
+    text-decoration: underline;
+    margin: 10px 0;
+}
+
+.g-red {
+    color: red;
+}
+
+.g-yellow {
+    color: yellow;
+}
+
+.g-green {
+    color: green;
+}
+
+.g-link-2 {
+    height: 50px;
+    line-height: 50px;
+    margin-left: 81px;
+    display: inline-block;
+    font-size: 20px;
+    color: #954A4A;
+}
+
+.g-logo {
+    background: url(//aliwork.alicdn.com/tps/i1/TB1zaqDGVXXXXaVXXXX083BIpXX-193-36.png) no-repeat;
+    width: 193px;
+    height: 36px;
+    margin:30px auto 0;
+}
+
+.g-welcome-pic{
+    background:url(//aliwork.alicdn.com/tps/i1/TB1tEaBGVXXXXcFXXXXWCPSRFXX-829-517.png) no-repeat;
+    width:829px;
+    height:517px;
+    margin:180px auto 0;
+}
+
+.blackboard-index {
+
+}
+
+.blackboard-tr-odd {
+
+}
+
+.blackboard-tr-even .td-container {
+    padding-right: 40px;
+}
+
+.blackboard-table .label {
+    display: inline-block;
+    width: 120px;
+    text-align: right;
+    padding-right: 10px;
+    color: #999;
+}
+
+.blackboard-table .content {
+
+}
+
+.button-group {
+    font-size: 0;
+}
+
+.blackboard-toolbar {
+    margin-bottom: 10px;
+    height: 30px;
+}
+
+.blackboard-toolbar .toolbar-left {
+    padding-top: 4px;
+}
+
+.button-group .button {
+    color: #666;
+    padding: 1px 6px;
+    border: 1px solid #ccc;
+    font-size: 12px;
+    display: inline-block;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    background: white;
+}
+
+.button-group .button.active {
+    background: #288df0;
+    color: white;
+    border-color: #288df0;
+}
+
+.button-group .button:first-child {
+    border-radius: 4px 0 0 4px;
+}
+
+.button-group .button:last-child {
+    margin-left: -1px;
+    border-radius: 0 4px 4px 0;
+}
+
+.blackboard-edit .kuma-input,
+.blackboard-edit .kuma-textarea {
+    width: 460px;
+}
+
+.blackboard-edit .kuma-textarea {
+    height: 100px;
+}
+
+ul li {
+    list-style: none
+
+}
+
+.clear {
+    clear: both;
+}
+
+.mark {
+    color: red;
+}
+
+#content {
+    font-size: 14px;
+    font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Lucida Grande", "Hiragino Sans GB", "Hiragino Sans GB W3";
+    min-height: 500px;
+    margin-bottom:70px;
+}
+
+.projx-list {
+    float: left;
+    clear: both;
+    font-size: 14px;
+    margin-bottom: 70px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.projx-list-item {
+    width: 230px;
+    min-height: 200px;
+    border-radius: 6px;
+    /*border: 1px solid #444;*/
+    float: left;
+    cursor: pointer;
+    margin: 10px;
+    padding: 18px;
+    background: #fff;
+    opacity: .8;
+}
+
+.projx-list-item:hover {
+    opacity: .9;
+}
+
+.projx-list-item ul, .projx-list-item li {
+    float: left;
+}
+
+.projx-list-item li {
+    line-height: 30px;
+    height: 30px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.project-name {
+    font-size: 20px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.projx-green {
+    background-color: #5cb85c;
+}
+
+.projx-yellow {
+    background-color: #f0ad4e;
+}
+
+.projx-red {
+    background-color: #d9534f;
+}
+
+.label-status {
+    margin-right: 10px;
+}
+
+.label-status-red {
+    color: red;
+}
+
+.label-status-green {
+    color: green;
+}
+
+.label-status-yellow {
+    color: yellow;
+}
+
+.kuma-label {
+    color: #f60;
+}
+
+#ais-remote-header .top-ui-head {
+    background: #f60;
+    background: rgba(255, 102, 0, 0.7)
+}
+
+/*#ais-remote-header .top-ui-head .work-head {*/
+    /*color: #666;*/
+/*}*/
+
+/*#ais-remote-header .top-ui-head .work-head a {*/
+    /*color: #666;*/
+/*}*/
+
+#ais-remote-header .head-line{
+    border-color:transparent;
+}

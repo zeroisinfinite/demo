@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <!-- 防止IE8,7进入怪异模式 -->
+    {{{include ("../control/common/dns")}}}
+    <meta charset="UTF-8"/>
+    <title>阿里巴巴 - EHR 黑板</title>
+    {{{include ('../control/common/favicon')}}}
+    {{{include ('../control/common/css')}}}
+    {{{include ('../control/css')}}}
+    {{{include ('../control/myConfig')}}}
+    {{{include ('../control/common/js')}}}
+    {{{include ('../control/seajsConfig')}}}
+    {{{block ("header")}}}
+</head>
+<body>
+{{{include ('../control/common/header')}}}
+<div class="body" id="body">
+    {{{block ("content")}}}
+</div>
+{{{include ('../control/js')}}}
+{{{include ('../control/common/footer')}}}
+</body>
+</html>

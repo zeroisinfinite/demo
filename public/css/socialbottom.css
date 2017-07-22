@@ -1,0 +1,26 @@
+.nimbusBold{font-family:'NimbusMonL-Bol',sans-serif;}html.ASIA .nimbusBold{font-family:'NimbusMonL-Bol',Asian,sans-serif;}
+.nimbusReg{font-family:'NimbusMonL-Reg',sans-serif;}html.ASIA .nimbusReg{font-family:'NimbusMonL-Reg',Asian,sans-serif;}
+.capitoliumReg{font-family:'Capitolium2-Regular',sans-serif;}html.ASIA .capitoliumReg{font-family:'Capitolium2-Regular',Asian,sans-serif;}
+.doNotDeletePlease{color:red;}
+.social-bottom{padding:10px;background-color:#f1f0ec;}
+.newsletter-block{padding-top:20px;padding-bottom:20px;text-align:center;}
+.newsletter-block-content{padding-left:20%;padding-right:20%;}
+.title-newsletter-block{margin-bottom:10px;}
+.description-newsletter-block{margin-bottom:10px;}
+.follow-us-block{margin:20px auto;text-align:center;}.follow-us-block li{display:inline-block;}
+.follow-us-block-content{padding-left:18%;padding-right:18%;}
+.title-follow-us-block{margin-bottom:10px;}
+.description-follow-us-block{margin-bottom:10px;}
+@media (max-width : 767px) {.nimbusBold{font-family:'NimbusMonL-Bol',sans-serif;}html.ASIA .nimbusBold{font-family:'NimbusMonL-Bol',Asian,sans-serif;}
+.nimbusReg{font-family:'NimbusMonL-Reg',sans-serif;}html.ASIA .nimbusReg{font-family:'NimbusMonL-Reg',Asian,sans-serif;}
+.capitoliumReg{font-family:'Capitolium2-Regular',sans-serif;}html.ASIA .capitoliumReg{font-family:'Capitolium2-Regular',Asian,sans-serif;}
+.doNotDeletePlease{color:red;}
+.newsletter-block{border-bottom:1px solid #a5a5aa;}
+}@media (max-width : 479px) {}@media ((max-width : 767px) and (min-width : 480px)) {}@media (min-width : 768px) {.nimbusBold{font-family:'NimbusMonL-Bol',sans-serif;}html.ASIA .nimbusBold{font-family:'NimbusMonL-Bol',Asian,sans-serif;}
+.nimbusReg{font-family:'NimbusMonL-Reg',sans-serif;}html.ASIA .nimbusReg{font-family:'NimbusMonL-Reg',Asian,sans-serif;}
+.capitoliumReg{font-family:'Capitolium2-Regular',sans-serif;}html.ASIA .capitoliumReg{font-family:'Capitolium2-Regular',Asian,sans-serif;}
+.doNotDeletePlease{color:red;}
+.newsletter-block{width:50%;float:left;position:relative;}
+.follow-us-block{width:50%;float:left;}
+.social-separator{border-right:1px solid #a5a5aa;position:absolute;top:0;bottom:0;right:0;}
+}@media (max-width : 1023px) and (min-width : 768px) {}@media (min-width : 768px) and (max-width : 1100px) {}@media (min-width : 1024px) {}@media (min-width : 1440px) {}

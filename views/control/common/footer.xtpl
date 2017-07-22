@@ -1,0 +1,73 @@
+<!-- S GLOBAL HTML -->
+<style type="text/css">
+    .footer {
+        position: relative;
+        font: 12px/1.5 tahoma, arial, 'Hiragino Sans GB', \5b8b\4f53, sans-serif;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: 0 auto;
+        text-align: center;
+        color: #fff;
+        padding-bottom: 10px;
+    }
+
+    .footer .footer-hd,
+    .footer .footer-bd {
+        line-height: 27px;
+    }
+
+    .footer .footer-hd {
+        padding-bottom: 5px;
+        margin-bottom: 5px;
+        border-bottom: 1px solid #fff;
+    }
+
+    .footer a {
+        color: #fff;
+        padding: 0 3px;
+        text-decoration: none;
+    }
+
+    .footer a:hover {
+        color: #288df0;
+    }
+
+    .footer b,
+    .footer .font-special {
+        font-family: 'simsun', sans-serif;
+    }
+
+</style>
+<div id="footer" class="footer border-top">
+    <div class="footer-hd">
+        <p>
+            <a href="https://flow.cn.alibaba-inc.com/admin/admin2014.nsf" target="_blank">行政</a>
+            <a href="https://is.alibaba-inc.com/meeting" target="_blank">会议室投影仪</a>
+            <b>|</b>
+            <a href="https://ehr.alibaba-inc.com/welfare/vacation/home/my_apply.htm" target="_blank">请假</a>
+            <a href="https://ehr.alibaba-inc.com/performance" target="_blank">绩效</a>
+            <a href="https://alihr.alibaba.com:4430" target="_blank">PS(员工)</a>
+            <a href="https://hr.alibaba-inc.com/zhaopin" target="_blank">推荐/转岗</a>
+            <a href="https://ehr.alibaba-inc.com/sc/" target="_blank">HR服务中心</a>
+            <b>|</b>
+            <a href="http://it.alibaba-inc.com/lovescloud2.aspx" target="_blank">IT</a>
+            <a href="https://alilang.alibaba-inc.com" target="_blank">阿里郎</a>
+            <a href="https://is.alibaba-inc.com/asset/Home/Index" target="_blank">资产平台</a>
+            <b>|</b>
+            <a href="http://wf.alibaba-inc.com" target="_blank">流程平台</a>
+            <a href="https://iportal.alibabacorp.com/portal/default.aspx" target="_blank">财务中心</a>
+            <b>|</b>
+            <a href="https://baoxiao.alibabacorp.com/APPS/TES/Index.aspx" target="_blank">员工报销</a>
+            <a href="https://flow.cn.alibaba-inc.com/law/lawNew.nsf" target="_blank">法务中心</a>
+            <a href="http://work.alibaba-inc.com/work/links" target="_blank">更多<span
+                    class="font-special">&gt;&gt;</span></a>
+
+        </p>
+    </div>
+    <div class="footer-bd">
+        <p class="copyright">© 1999-2014 阿里巴巴集团 Powered by<a target="_blank"
+                                                             href="https://work.alibaba-inc.com/work/team/employee/1469">信息平台事业部</a>
+        </p>
+    </div>
+</div>
+<!-- E GLOBAL HTML -->

@@ -1,0 +1,98 @@
+<style type="text/css">
+  .search-result{margin-top:50px;padding-bottom:70px}
+  .search-tit{padding:15px;}
+  .search-tit h1{color:#000;font-size:30px;verticel-align:-5px;display: inline;}
+  .search-tit h1 em{color:#ADA5AA}
+  .search-tit .search-text{background:#EFEFEF;padding:10px;*padding:12px 10px;width:170px;outline:0;border:0;*margin-left:20px}
+  .search-tit .search-btn{background:#333;color:#fff;-webkit-transition: all 0.3s ease;-o-transition: all 0.3s ease;transition: all 0.3s ease;padding:10px;outline:0;border:0;cursor:pointer;margin-left:-7px;}
+  .search-tit .search-btn:hover{background:#ddd;color:#666}
+  .search-tab-hd{background:#fff;*zoom:1;}
+  .search-tab-hd:after{content:'';display:block;width:0;visibility:hidden;clear:both;}
+  .search-tab-hd .productsTab{float:left;text-align:center;height:32px;padding-top:15px;font-size:16px;border:1px solid #eaeaea;width:155px}
+  .search-tab-hd .productsTab em{color:#F1CC0C}
+  .search-tab-hd .productsTab.hascon{cursor:pointer}
+  .search-tab-hd .productsTab.on{background:#eaeaea;color:#666}
+  .search-tab-hd .productsTab.on em{color:#f5f5f5}
+  .search-tab-con{display:none;padding:20px 2%;*zoom:1;background:#eaeaea;*padding-bottom:20px;}
+  .search-tab-con.on{display:block;}
+  .search-tab-con:after{content:'';display:block;width:0;visibility:hidden;clear:both;}
+  .search-tab-con .oproduct{/*float: left; width: 20%; margin-right: 1%; text-align: center; margin-bottom: 2%;background:#fff;*/ float:left;width:270px;margin-left:35px;text-align:center;margin-bottom:35px;background:#fff;}
+  .search-tab-con .oproduct a{display:block;border: 1px solid #c1c1c1;}
+  .search-tab-con .oproduct a:hover{display:block;border: 1px solid #f60;}
+  .search-tab-con .oproduct a:hover .prodetail h2{color: #f60;}
+  .search-tab-con .oproduct a img{display:block;width:270px;height:360px;}
+  .search-tab-con .oproduct .prodetail{padding:15px 0;height:60px;overflow:hidden}
+  .search-tab-con .oproduct .prodetail h2{margin: 10px 0;color: #333;max-height:60px;overflow:hidden;font-size:16px;line-height:1.25;display:block;}
+  .search-tab-con .oproduct .prodetail em{color:#E07F23}
+  .search-tab-con .oservice{height:320px;}
+  .search-tab-con .oservice a h2{height:100px;font-size:20px;line-height:20px;display:block;margin-top:20px;overflow:hidden;}
+  .search-tab-con .oservice a p{height:60px;font-size:16px;line-height:20px;}
+</style>
+<div class="search-result">
+    <!-- <div class="search-tit">
+      <h1><em> 1</em> 搜索结果</h1>
+      <input name="searchIput1" type="text" id="searchIput1" class="search-text">
+       <input type="submit" name="searchSubmit" value="搜索" id="searchSubmit" class="search-btn">
+    </div> -->
+    <div class="search-tab-hd">
+      <!--如果改选项卡下搜索到内容，添加 hascon类-->
+      <div class="productsTab on">产品系列 <em>1</em></div>
+      
+    </div>
+    <!--产品系列-->
+    <div class="search-tab-con on J-product-list">
+    
+    </div>
+    <!--服务-->
+    <div class="search-tab-con">
+      <div class="oproduct oservice">
+        <a href="/youhoo/help" title="">
+          <div class="proimg">
+            <h2>如何联络YOUHOO？</h2>
+          </div>
+          <div class="prodetail">
+            <p>如果您需要任何信息或帮助，请致电顾客服务中心：400-8070605。</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- The folowing should in a js file! -->
+<script type="text/javascript">
+    jQuery(document).ready(function(){
+        var $ = jQuery;
+
+        function init(){
+            var params = YouHooUtils.parseAnchor();
+            console.log(params);
+            params && params.keywords && doSearchData(params.keywords)
+        }
+        function doSearchData(str) {
+            //异步请求，需加loading中的显示
+            $.ajax({
+                url: myConfig.searchProduct
+                ,type: "get"
+                ,dataType: "json"
+                ,data: {keywords: str}
+            })
+            .done(function (data) {
+                var _html = "";
+                // TODO 分页显示的问题怎么处理呢？
+                console.log("==searchProduct== ",data)
+                for (var i = 0; i < data.length; i++) {
+                    var _obj = data[i];
+                    if (_obj.title && (_obj.title).toLowerCase().indexOf(str.toLowerCase()) > -1) {
+                      _html += '<div class="oproduct"><a href="/youhoo/product?tid='+_obj.id+'" title=""><div class="proimg"><img src="'+_obj.pic+'" alt=""></div><div class="prodetail"><h2>'+_obj.title+'</h2><em>价格: '+_obj.price+'</em></div></a></div>';
+                    };
+                };
+                $('.J-product-list').html(_html);
+            })
+            .error(function (d) {
+            })
+            .always(function () {
+                // location.href = ;
+            });
+        }
+        init();
+    })
+</script>

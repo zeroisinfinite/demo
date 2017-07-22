@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>YouHoo - 站点</title> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  {{{include ("../control/myConfig")}}}
+  {{{include ("../control/common/js")}}} 
+  {{{include ("../control/seajsConfig")}}}
+  <!-- 防止IE8,7进入怪异模式 --> 
+  {{{include ("../control/common/dns")}}}
+  {{{block ("header")}}}
+</head>
+<body>
+
+    <script type="text/javascript">
+      jQuery(document).ready(function(){
+        var $ = jQuery;
+        function browserRedirect() { 
+
+            var _headMetaStyle = "";
+
+            if (YouHooUtils.isMobileDevice()) { 
+
+                _headMetaStyle = '<link rel="stylesheet" type="text/css" href="/style/mob_base.css"><link rel="stylesheet" type="text/css" href="/style/mobile.css"> <meta name="viewport" content="width=device-width, initial-scale=1">';
+            }else{
+                _headMetaStyle = '<meta http-equiv="X-UA-Compatible" content="IE=edge"/> <link href="/style/base.css" media="screen, projection" rel="stylesheet" type="text/css"/> <link href="/style/header.css" media="screen, projection" rel="stylesheet" type="text/css"/> <link href="/style/footer.css" media="screen, projection" rel="stylesheet" type="text/css"/>  ';
+                // deleted by caowen 2016-03-13
+                // <link href="/style/projlist.css" media="screen, projection" rel="stylesheet" type="text/css"/> 
+            }
+            // add the newly created element and its content into the DOM 
+            $(_headMetaStyle).insertBefore($("#body"));
+        }
+
+        browserRedirect(); 
+      });
+
+    </script>
+<div class="page" id="body">
+  <!-- 背景细腻网格 -->
+  <!-- <div id="caroussel-trame" class="avoid-selection"></div> -->
+  <div id="content" class="g-margin-center"> 
+    {{{block ("content")}}}
+  </div> 
+
+  <div id="footer"> 
+  </div>
+  {{{include ('../control/js')}}}
+</div>
+
+  <script type="text/javascript">
+  seajs.use(['youhoo/js/main.js'],function(Mod){
+    Mod.init();
+  })
+  </script> 
+</body>
+</html>

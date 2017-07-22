@@ -1,0 +1,4 @@
+{{#if (jsName)}}
+    <script type="text/javascript">
+    </script>
+{{/if}}

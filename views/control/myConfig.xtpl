@@ -1,0 +1,16 @@
+<script type="text/javascript">
+    window.myConfig = {
+        // 查询所有数据
+        "queryAll": "/projx/queryAll.json",
+        // 创建项目
+        // createProject.json?project= [这里是一个json字符串]
+        "createProject": "/projx/createProject.json",
+        "newProjectStatus": "/projx/newProjectStatus.json",
+        // 查询单条数据
+        // queryOne.json?id=10023 为项目id，columnCode=projectId
+        "queryOne": "/projx/queryOne.json",
+
+        // 删除 传入projxId
+        "deleteProject": "/projx/deleteProject.json"
+    }
+</script>

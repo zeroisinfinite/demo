@@ -1,0 +1,82 @@
+.doNotDeletePlease{color:red;}
+.nimbusBold{font-family:'NimbusMonL-Bol',sans-serif;}html.ASIA .nimbusBold{font-family:'NimbusMonL-Bol',Asian,sans-serif;}
+.nimbusReg{font-family:'NimbusMonL-Reg',sans-serif;}html.ASIA .nimbusReg{font-family:'NimbusMonL-Reg',Asian,sans-serif;}
+.capitoliumReg{font-family:'Capitolium2-Regular',sans-serif;}html.ASIA .capitoliumReg{font-family:'Capitolium2-Regular',Asian,sans-serif;}
+.newsletterRegistrationTemplate{width:100%;display:table;}.newsletterRegistrationTemplate .newsletterRegistrationContainer{width:100%;display:table-row;}.newsletterRegistrationTemplate .newsletterRegistrationContainer .leftColumnNewsletterContainer{width:75%;display:table-cell;}
+.newsletterRegistrationTemplate .newsletterRegistrationContainer .rightColumnNewsletterContainer{width:25%;display:table-cell;}
+.leftColumnNewsletterWrapper{width:88.4%;margin:0 auto;}.leftColumnNewsletterWrapper #newsletterRegistrationForm .subscriber{margin-top:5px;}.leftColumnNewsletterWrapper #newsletterRegistrationForm .subscriber .fieldLabel{vertical-align:baseline;}
+.leftColumnNewsletterWrapper #newsletterRegistrationSubmit{margin:15px 0;}
+.leftColumnNewsletterWrapper #newsletterRegistrationSubmit:hover{color:#444001;}
+.leftColumnNewsletterWrapper #newsletterUnsubscribeSubmit{margin:15px 0;}
+.leftColumnNewsletterWrapper .newsletterTitleWrapper{display:block;}.leftColumnNewsletterWrapper .newsletterTitleWrapper .newsletterTitle{display:block;text-transform:uppercase;padding:10px 0;margin:10px 0 0;color:#202120;border-bottom:1px solid #c5bdb5;}
+.leftColumnNewsletterWrapper .newsletterTitleWrapper .mandatory-field{display:block;float:none;text-align:right;}
+.leftColumnNewsletterWrapper .newsletterSubTitle{margin:20px 0;padding-left:15px;background:url(../images/simple_arrow_right_darkgrey.png) no-repeat 0 50%;cursor:pointer;}.leftColumnNewsletterWrapper .newsletterSubTitle.firstItem{margin:0 0 20px 0;}
+.leftColumnNewsletterWrapper .newsletterSubTitle.target-on{background:url(../images/simple_arrow_down_darkgrey.png) no-repeat 0 50%;}
+.leftColumnNewsletterWrapper .newsletterDescription{padding:0 0 28px 0;text-align:justify;}
+.leftColumnNewsletterWrapper .formWrapper{width:60%;}
+.leftColumnNewsletterWrapper .newsletterLegalMentions{text-align:justify;color:#5e5e60;}
+.rightColumnNewsletterWrapper{padding:5px 20px;}.rightColumnNewsletterWrapper .newsletterNavLinkWrapper{width:100%;}.rightColumnNewsletterWrapper .newsletterNavLinkWrapper .newsletterNavLink{width:100%;display:block;text-transform:uppercase;border-bottom:1px solid #c5bdb5;padding:14px 5px;}.rightColumnNewsletterWrapper .newsletterNavLinkWrapper .newsletterNavLink .newsletterNavTitle{padding-left:15px;background:url(../images/simple_arrow_right_darkgrey.png) no-repeat 0 5px;}
+.rightColumnNewsletterWrapper .newsletterCoverWrapper{margin:40px 15px;}.rightColumnNewsletterWrapper .newsletterCoverWrapper .newsletterCover{display:block;width:100%;position:relative;height:0;padding-bottom:56.25%;overflow:hidden;}.rightColumnNewsletterWrapper .newsletterCoverWrapper .newsletterCover img{position:absolute;display:block;max-width:100%;max-height:100%;left:0;right:0;top:0;bottom:0;margin:auto;}
+.newsletterSuccessRegistrationContainer{width:100%;display:table-row;}.newsletterSuccessRegistrationContainer .newsletterSuccessMessageContainer{width:75%;display:table-cell;}
+.newsletterSuccessRegistrationContainer .newsletterlSocialMediaNavContainer{width:25%;display:table-cell;padding:0 20px;padding-top:24px;vertical-align:top;background-color:#e5e0e0;}
+.newsletterSuccessMessageWrapper{width:80%;margin-top:38px;margin-right:auto;margin-bottom:30px;margin-left:auto;text-align:center;padding:9% 1%;border:1px solid #bababa;}.newsletterSuccessMessageWrapper .formClient{display:block;}
+.newsletterSuccessMessageWrapper .thanksMessage{display:block;margin:6% auto;}
+.newsletterSuccessMessageWrapper .successMessageContent{margin-bottom:6%;}
+.newsletterSuccessMessageWrapper .buttonsWrapper{margin:0 auto ;width:40%;}.newsletterSuccessMessageWrapper .buttonsWrapper a.button-orange{margin-bottom:8%;}
+.newsletterlSocialMediaNavContainer .newsletterlSocialMediaNavWrapper{width:100%;}.newsletterlSocialMediaNavContainer .newsletterlSocialMediaNavWrapper .newsletterNavLink{width:100%;display:block;text-transform:uppercase;border-bottom:1px solid #c5bdb5;padding:14px 5px;background:url(../images/simple_arrow_right_darkgrey.png) no-repeat 0 50%;}.newsletterlSocialMediaNavContainer .newsletterlSocialMediaNavWrapper .newsletterNavLink .socialMediaTitle{padding-left:15px;}
+.newsletterlSocialMediaNavContainer .newsletterlSocialMediaNavWrapper .newsletterNavLink.target-on{background:url(../images/simple_arrow_down_darkgrey.png) no-repeat 0 50%;}
+.newsletterlSocialMediaNavContainer .newsletterlSocialMediaNavWrapper .dropDownSocialMediaContent{padding:18px 0;width:100%;margin:0 auto;display:none;}.newsletterlSocialMediaNavContainer .newsletterlSocialMediaNavWrapper .dropDownSocialMediaContent .follow-us{line-height:initial;text-align:center;}.newsletterlSocialMediaNavContainer .newsletterlSocialMediaNavWrapper .dropDownSocialMediaContent .follow-us li{display:inline-block;}
+#newsletterSignOutContainer .unsubscribeConfirmationDesc{margin-bottom:30px;}
+#newsletterSignOutContainer .backToHomeWrapper{margin-bottom:30px;}
+.errorMsg{color:#dc130b;line-height:19px;clear:both;}
+#newsletterSignInContainer .globalErrors,#newsletterSignOutContainer .globalErrors{padding-top:0;}
+.exp_content{display:none;}.exp_content.expand-on{display:block !important;}
+@media (max-width : 767px) {.doNotDeletePlease{color:red;}
+.nimbusBold{font-family:'NimbusMonL-Bol',sans-serif;}html.ASIA .nimbusBold{font-family:'NimbusMonL-Bol',Asian,sans-serif;}
+.nimbusReg{font-family:'NimbusMonL-Reg',sans-serif;}html.ASIA .nimbusReg{font-family:'NimbusMonL-Reg',Asian,sans-serif;}
+.capitoliumReg{font-family:'Capitolium2-Regular',sans-serif;}html.ASIA .capitoliumReg{font-family:'Capitolium2-Regular',Asian,sans-serif;}
+.newsletterRegistrationTemplate{display:block;}.newsletterRegistrationTemplate .newsletterRegistrationContainer{display:block;}.newsletterRegistrationTemplate .newsletterRegistrationContainer .leftColumnNewsletterContainer{width:100%;display:block;}
+.newsletterRegistrationTemplate .newsletterRegistrationContainer .rightColumnNewsletterContainer{width:auto;display:block;}
+.leftColumnNewsletterWrapper{width:87.5%;margin:auto 6.25%;}.leftColumnNewsletterWrapper #newsletterRegistrationSubmit{display:block;margin:15px auto;}
+.leftColumnNewsletterWrapper #newsletterUnsubscribeSubmit{display:block;margin:15px auto;}
+.leftColumnNewsletterWrapper .newsletterTitleWrapper{border:none;}.leftColumnNewsletterWrapper .newsletterTitleWrapper .newsletterTitle{width:100%;display:block;border-bottom:1px solid #c5bdb5;}
+.leftColumnNewsletterWrapper .newsletterTitleWrapper .mandatory-field{display:block;padding:19px 0 10px 0;}
+.leftColumnNewsletterWrapper .formWrapper{width:100%;}
+.rightColumnNewsletterWrapper .newsletterNavLinkWrapper .newsletterNavLink{padding:14px 0;}
+.newsletterSuccessRegistrationContainer{width:100%;display:block;}.newsletterSuccessRegistrationContainer .newsletterSuccessMessageContainer{width:100%;display:block;}
+.newsletterSuccessRegistrationContainer .newsletterlSocialMediaNavContainer{width:100%;display:block;padding:0;}
+.newsletterlSocialMediaNavContainer .newsletterlSocialMediaNavWrapper .newsletterNavLink{padding:15px 5px;background:url(../images/simple_arrow_right_darkgrey.png) no-repeat 5px 50%;}.newsletterlSocialMediaNavContainer .newsletterlSocialMediaNavWrapper .newsletterNavLink.target-on{background:url(../images/simple_arrow_down_darkgrey.png) no-repeat 5px 50%;}
+.newsletterSuccessMessageWrapper{margin-top:15px;margin-bottom:30px;}.newsletterSuccessMessageWrapper .buttonsWrapper{width:90%;}.newsletterSuccessMessageWrapper .buttonsWrapper a.button-orange{margin-bottom:20px;}
+.newsletterSuccessMessageWrapper .buttonsWrapper a.button-white{margin-bottom:4%;}
+#newsletterSignOutContainer .backToHomeWrapper{text-align:center;}
+}@media (max-width : 479px) {.doNotDeletePlease{color:red;}
+.nimbusBold{font-family:'NimbusMonL-Bol',sans-serif;}html.ASIA .nimbusBold{font-family:'NimbusMonL-Bol',Asian,sans-serif;}
+.nimbusReg{font-family:'NimbusMonL-Reg',sans-serif;}html.ASIA .nimbusReg{font-family:'NimbusMonL-Reg',Asian,sans-serif;}
+.capitoliumReg{font-family:'Capitolium2-Regular',sans-serif;}html.ASIA .capitoliumReg{font-family:'Capitolium2-Regular',Asian,sans-serif;}
+.newsletterSuccessMessageWrapper{padding:5% 5% 9% 5%;}
+}@media ((max-width : 767px) and (min-width : 480px)) {}@media (min-width : 768px) {.doNotDeletePlease{color:red;}
+.nimbusBold{font-family:'NimbusMonL-Bol',sans-serif;}html.ASIA .nimbusBold{font-family:'NimbusMonL-Bol',Asian,sans-serif;}
+.nimbusReg{font-family:'NimbusMonL-Reg',sans-serif;}html.ASIA .nimbusReg{font-family:'NimbusMonL-Reg',Asian,sans-serif;}
+.capitoliumReg{font-family:'Capitolium2-Regular',sans-serif;}html.ASIA .capitoliumReg{font-family:'Capitolium2-Regular',Asian,sans-serif;}
+.handleHeight{background-color:#efefef;;right:0;bottom:0;top:50px;position:absolute;}
+.newsletterRegistrationTemplate{table-layout:fixed;}.newsletterRegistrationTemplate .newsletterRegistrationContainer .rightColumnNewsletterContainer{position:relative;}
+.newsletterSuccessRegistrationContainer .newsletterlSocialMediaNavContainer{position:relative;}
+.newsletterSuccessMessageWrapper .formClient,.newsletterSuccessMessageWrapper .sentSuccessMessage,.newsletterSuccessMessageWrapper .thanksMessage{overflow-x:hidden;}
+}@media (max-width : 1023px) and (min-width : 768px) {.doNotDeletePlease{color:red;}
+.nimbusBold{font-family:'NimbusMonL-Bol',sans-serif;}html.ASIA .nimbusBold{font-family:'NimbusMonL-Bol',Asian,sans-serif;}
+.nimbusReg{font-family:'NimbusMonL-Reg',sans-serif;}html.ASIA .nimbusReg{font-family:'NimbusMonL-Reg',Asian,sans-serif;}
+.capitoliumReg{font-family:'Capitolium2-Regular',sans-serif;}html.ASIA .capitoliumReg{font-family:'Capitolium2-Regular',Asian,sans-serif;}
+.handleHeight{width:33%;}
+.newsletterRegistrationTemplate .newsletterRegistrationContainer .leftColumnNewsletterContainer{width:67%;}
+.newsletterRegistrationTemplate .newsletterRegistrationContainer .rightColumnNewsletterContainer{width:33%;}
+.leftColumnNewsletterWrapper{width:85.2%;margin:auto 7.4%;}.leftColumnNewsletterWrapper .formWrapper{width:100%;}
+.newsletterSuccessRegistrationContainer{width:100%;}.newsletterSuccessRegistrationContainer .newsletterSuccessMessageContainer{width:67%;}
+.newsletterSuccessRegistrationContainer .newsletterlSocialMediaNavContainer{width:33%;padding-top:35px;}
+.newsletterSuccessMessageWrapper{margin-top:49px;}.newsletterSuccessMessageWrapper .buttonsWrapper{width:60%;}.newsletterSuccessMessageWrapper .buttonsWrapper a.button-orange{margin-bottom:6%;}
+}@media (min-width : 768px) and (max-width : 1100px) {}@media (min-width : 1024px) {.doNotDeletePlease{color:red;}
+.nimbusBold{font-family:'NimbusMonL-Bol',sans-serif;}html.ASIA .nimbusBold{font-family:'NimbusMonL-Bol',Asian,sans-serif;}
+.nimbusReg{font-family:'NimbusMonL-Reg',sans-serif;}html.ASIA .nimbusReg{font-family:'NimbusMonL-Reg',Asian,sans-serif;}
+.capitoliumReg{font-family:'Capitolium2-Regular',sans-serif;}html.ASIA .capitoliumReg{font-family:'Capitolium2-Regular',Asian,sans-serif;}
+.newsletterSuccessMessageWrapper{padding:9% 5%;}
+.handleHeight{width:25%;}
+}@media (min-width : 1440px) {}

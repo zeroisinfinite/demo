@@ -1,0 +1,6 @@
+
+{{extend ("./layout/default") }}
+{{#block ("content") }}
+	<!-- TODO 内嵌swf的Flash文档 -->
+    <a href="/youhoo" style="outline:none;" title="点击进入">订阅电子报</a>
+{{/block}}

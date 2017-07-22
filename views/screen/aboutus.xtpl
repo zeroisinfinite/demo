@@ -1,0 +1,40 @@
+
+  <!-- The folowing should in a js file! -->
+<script type="text/javascript">
+    jQuery(document).ready(function(){
+        var $ = jQuery;
+
+        function init(){
+            var params = YouHooUtils.parseAnchor();
+            console.log(params);
+            params && params.tid && doSearchData(params.tid)
+        }
+        function doSearchData(curId) {
+            //异步请求，需加loading中的显示  
+            // 曹文 2016-01-31
+            // TODO 按照改版设计，这里需要根据ID来加载不同的模版［公司简介、品牌介绍、制造工艺］三个不同页面显示
+            $.ajax({
+                url: myConfig.queryAboutUs
+                ,type: "get"
+                ,dataType: "json"
+            })
+            .done(function (data) {
+              for (var i = 0; i < data.length; i++) {
+                var _obj = data[i];
+                if (_obj.id == curId) {
+                  $('.J-big-tile').html(_obj.name);
+                  $('.J-main-pic').attr("src",_obj.pic);
+                  $('.J-detail-views').html(_obj.detail);
+                }
+              };
+                  
+            })
+            .error(function (d) {
+            })
+            .always(function () {
+                // location.href = ;
+            });
+        }
+        init();
+    })
+</script>

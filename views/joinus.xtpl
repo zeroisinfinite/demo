@@ -1,0 +1,12 @@
+{{set (jsName="index",cssName="projlist") }}
+{{extend ("./layout/default") }}
+{{#block ("content") }}
+
+	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&amp;ak=0C13593648fea1de15876a93a09509c1"></script>
+	<script type="text/javascript" src="http://api.map.baidu.com/getscript?v=2.0&amp;ak=0C13593648fea1de15876a93a09509c1&amp;services=&amp;t=20150923173713"></script>
+	<script type="text/javascript">
+		seajs.use(['youhoo/js/mods/joinus/module.js'],function(Mod){
+		  Mod.init();
+		})
+	</script> 
+{{/block}}

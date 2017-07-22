@@ -1,0 +1,5 @@
+{{set (jsName="index",cssName="index") }}
+{{extend ("./layout/default") }}
+{{#block ("content") }}
+    <a href="/projx" style="outline:none;" title="点击进入"><div class="g-welcome-pic"></div></a>
+{{/block}}

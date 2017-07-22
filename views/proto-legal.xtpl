@@ -1,0 +1,157 @@
+{{set (jsName="index",cssName="projlist") }}
+{{extend ("./layout/default") }}
+{{#block ("content") }}
+    <style type="text/css">
+    .page{background-color: #f4f4f4;}
+.doNotDeletePlease{color:red;}
+p{margin:0;padding:0;border:0;outline:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;font-family: "Microsoft Yahei", arial, sans-serif!important;}
+.exp_content{display:block;}
+.resp-tabs-list{overflow:hidden;width:100%;margin:0;padding:0;list-style:none;}
+.resp-tabs-list li{display:inline-block;padding:0px 0px;border-top:1px solid #ebe8e3;border-right:1px solid #ebe8e3;margin:0;margin-left:-4px;cursor:pointer;}
+.resp-tabs-list li:first-child{margin-left:22px;border-left:1px solid #ebe8e3;}
+.resp-tabs-list li.resp-tab-active{background-color:#ebe8e3;color:#c8a985;}
+.resp-tabs-container{width:100%;display:block;background-color:#f0f0f0;}
+h2.resp-accordion{display:none;}
+.resp-tab-content{width:100%;display:none;padding: 20px 0;line-height: 1.5;}
+.resp-tab-content .leftColumn{display:block;float:none;width:100%;background-color:#f4f4f4;}
+.resp-tab-content.resp-tab-content-active{display:block;}
+.leftColumnWrapper{width:90%;height:100%;margin:0 auto;}.leftColumnWrapper .tabSectionHeader{width:100%;border-bottom:1px solid #bababa;}
+.leftColumnWrapper .tabSectionHeader .printBtn{float:right;margin-top:50px;text-transform:uppercase;}.leftColumnWrapper .tabSectionHeader .printBtn:hover{filter:progid:DXImageTransform.Microsoft.Alpha(opacity=80);opacity:0.8;-moz-opacity:0.8;}
+.leftColumnWrapper .tabSummary{margin:20px 0px;color:#5e5e60;text-align:justify;}
+.leftColumnWrapper .tabChapterContainer .tabChapterDescription{color:#5e5e60;text-align:justify;}
+.leftColumnWrapper .tabChapterContainer.lastItem{margin-bottom:20px;}
+.exp_content{display:none;}
+h2.resp-accordion{display:block;width:80%;margin:0 auto;padding:10px 15px;margin-bottom:7px;background:#e0dcd3 url(../images/full_arrow_down_darkgrey.png) no-repeat 95% 50%;cursor:pointer;}
+h2.resp-accordion.resp-tab-active{background:#e0dcd3 url(../images/full_arrow_up_darkgrey.png) no-repeat 95% 50%;}
+.resp-tab-content.resp-accordion-closed{display:none !important;}
+.leftColumnWrapper{width:80%;height:100%;margin:0 auto;text-align:justify;}.leftColumnWrapper .tabSectionHeader{width:100%;border-bottom:1px solid #bababa;}
+.leftColumnWrapper .tabSectionHeader .tabSectionMainTitles{float:none;width:100%;text-align:left;}
+.leftColumnWrapper .tabSectionHeader .tabSectionMainTitles .tabSectionTitle{margin:15px 0px 10px 0px;}
+.leftColumnWrapper .tabSectionHeader .tabSectionMainTitles .tabSectionSubtitle{margin-bottom:20px;}
+.leftColumnWrapper .tabSectionHeader .printBtn{float:none;display:none;}
+.leftColumnWrapper .tabChapterContainer{border-bottom:1px solid #bababa;}
+/*.leftColumnWrapper .tabChapterContainer .tabChapterDescription{padding:20px 0px 20px 15px;}*/
+.leftColumnWrapper .tabChapterContainer.lastItem{border-bottom:none;}
+}
+.legalPrivacyPanels{display:block !important;}}
+.leftColumnWrapper .tabSectionHeader .printBtn{display:none;}
+
+.law-tile{line-height: 60px; font-size: 30px; text-align: center;color: #666;}
+.tabSectionMainTitles{padding: 10px 0;}
+.tabSectionMainTitles .tabSectionTitle{border-left: 3px solid #FFCF00;color: #FFCF00;font-weight: bold;font-size: 18px;line-height: 20px;padding-left: 10px;}
+	</style>
+
+
+  <div id="legalPrivacyContent" class="content"> 
+   
+     <div id="tab0" class="resp-tab-content resp-tab-content-active clearfix" data-panel="tabItem-0" style="display: block;"> 
+
+      <div class="column leftColumn"> 
+       <div class="leftColumnWrapper"> 
+
+        <h2 class="law-tile"><em style="color: #000;font-weight: bold;">法律</em>声明</h2> 
+        
+        <div class="tabSummary reading-and-link-text">
+
+       <div class="tabSectionMainTitles"> 
+        <div class="tabSectionTitle title">
+         使用条款
+        </div> 
+       </div> 
+        <p>本网站所含信息和资料均由杭州涉吉光学有限公司（下称"涉吉"）提供。访问本网站之前，请仔细阅读这些使用条款与条件。访问本网站意味着您同意遵循以下条款与条件的规定。如果您拒绝遵循这些条款与条件，请不要访问本网站。如果您希望继续访问，则意味着您已阅读、理解和同意遵循本声明，并遵循所有相关法律、法规。</p>
+        </div> 
+
+         <div class="tabSectionMainTitles"> 
+          <div class="tabSectionTitle title">
+           限制条款
+          </div> 
+         </div> 
+
+        <div id="tab0-Chapter0" class="tabChapterContainer lastItem"> 
+         
+         <div id="tab0-ChapterDesc0" class="tabChapterDescription reading-and-link-text exp_content legalPrivacyPanels legalPrivacyChapter-collapse richText expand-on" style="display: block;">
+          <p>本网站以及链接到本网站的其他网站仅供公众合法利用。您由此获得访问本网站内容的许可，但仅限于因个人、非商业目的通过本网站查看或订购产品或服务。未经授权而复制、展示、创建或者以其他方式使用本网站任何内容的行为，以及在不受涉吉控制的服务器上创建镜像的行为均将视为对适用法律的违背。您承认涉吉有权随时根据自己的判断拒绝或终止您访问本网站的权限。涉吉有权随时修改、暂停、撤离或终止本网站或其内容（包括本网站的这些条款），恕不另行通知。</p> 
+          <p></p>
+         </div> 
+        </div>
+
+         <div class="tabSectionMainTitles"> 
+          <div class="tabSectionTitle title">
+           知识产权条款
+          </div> 
+         </div> 
+
+        <div id="tab0-Chapter0" class="tabChapterContainer lastItem"> 
+         
+         <div id="tab0-ChapterDesc0" class="tabChapterDescription reading-and-link-text exp_content legalPrivacyPanels legalPrivacyChapter-collapse richText expand-on" style="display: block;">
+          <p>您承认自己了解本网站内容受中华人民共和国及各国适用法律保护，包括但不限于版权法及条约条款、商标法、专利法以及与专有权相关的其他法律和公平竞争法。本网站中的任何内容（包括但不限于数据、字词、图标、图片、音频或视频）的知识产权属于涉吉或相关各方。未经事先书面同意，任何人均不得拷贝、复制、传播、出版、重印、修订或展示本网站的任何内容。同时，若无书面许可，任何人均不得在不属于涉吉的服务器上创建本网站镜像。本网站的访问权限并不授予您使用涉吉或任何第三方的任何知识产权的许可。</p> 
+          <p></p>
+         </div> 
+        </div>
+
+         <div class="tabSectionMainTitles"> 
+          <div class="tabSectionTitle title">
+           免责条款
+          </div> 
+         </div> 
+
+        <div id="tab0-Chapter0" class="tabChapterContainer lastItem"> 
+         
+         <div id="tab0-ChapterDesc0" class="tabChapterDescription reading-and-link-text exp_content legalPrivacyPanels legalPrivacyChapter-collapse richText expand-on" style="display: block;">
+          <p>涉吉竭力在本网站提供安全、准确、完整的信息。然而，本网站所含部分信息可能存在错误或过时。本网站提供的材料和服务均按"原状"提供，涉吉未对本网站所提供材料或服务的准确性和完整性作出任何明显、暗示或法定的陈述和保证。在适用法律许可的最大范围内，涉吉不对本网站所含内容、文档、产品和服务作任何明示或暗示的担保，包括但不限于对质量满意、适销性、特定用途的适用性和不侵权的暗示保证。对于因使用本网站所含信息或其性能而引起或与此相关的任何损坏或损失，包括但不限于因依赖于任何此类信息的准确性和及时性而造成的损坏或损失或者因查看、分发或拷贝此类资料而导致的损坏，涉吉、其员工或代理人将不承担任何责任。</p> 
+          <p></p>
+         </div> 
+        </div>
+
+         <div class="tabSectionMainTitles"> 
+          <div class="tabSectionTitle title">
+           责任限制条款
+          </div> 
+         </div> 
+
+        <div id="tab0-Chapter0" class="tabChapterContainer lastItem"> 
+         
+         <div id="tab0-ChapterDesc0" class="tabChapterDescription reading-and-link-text exp_content legalPrivacyPanels legalPrivacyChapter-collapse richText expand-on" style="display: block;">
+          <p>对于与本网站或任何链接网站有关的，或因其使用而造成的，或因任何一方无法使用所引起的，或因任何性能故障所造成的，或因运行或传输出错、遗漏、中断、漏洞、延迟所造成的，或因计算机病毒、线路出错或系统故障所造成的，任何利润损失以及任何直接的、间接的、特殊的或附带性损坏、损失或费用，即使涉吉事先已被告知发生上述损坏、损失或费用的可能，本公司将不承担任何责任。</p> 
+          <p></p>
+         </div> 
+        </div>
+
+
+         <div class="tabSectionMainTitles"> 
+          <div class="tabSectionTitle title">
+           与其他网站的链接
+          </div> 
+         </div> 
+
+        <div id="tab0-Chapter0" class="tabChapterContainer lastItem"> 
+         
+         <div id="tab0-ChapterDesc0" class="tabChapterDescription reading-and-link-text exp_content legalPrivacyPanels legalPrivacyChapter-collapse richText expand-on" style="display: block;">
+          <p>本网站含有到第三方网站的链接。这些链接旨在为您考虑、为您提供方便，访问者和涉吉对这些链接的准确性和完整性不提供任何形式的担保。对于因第三方控制或提供的链接网站引起的任何损失、损坏或损害，涉吉不承担任何责任。涉吉并未认可第三方网站所含信息。对于外部网站的有效性、由其造成的中断，以及与本网站链接的此类第三方网站发布或提供的任何信息、材料、产品或服务，涉吉不承担任何责任。</p> 
+          <p></p>
+         </div> 
+        </div>
+
+
+         <div class="tabSectionMainTitles"> 
+          <div class="tabSectionTitle title">
+           试用法律
+          </div> 
+         </div> 
+
+        <div id="tab0-Chapter0" class="tabChapterContainer lastItem"> 
+         
+         <div id="tab0-ChapterDesc0" class="tabChapterDescription reading-and-link-text exp_content legalPrivacyPanels legalPrivacyChapter-collapse richText expand-on" style="display: block;">
+          <p>通过访问本网站，您同意：除与法律冲突的条款外，中华人民共和国法律将适用于与本网站相关的全部事项。</p> 
+          <p></p>
+         </div> 
+        </div>
+
+
+       </div> 
+      </div> 
+
+     </div> 
+  </div>
+
+{{/block}}

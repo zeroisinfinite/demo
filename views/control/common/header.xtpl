@@ -1,0 +1,13 @@
+<!-- S GLOBAL HTML -->
+<div id="ais-remote-header" style="height:28px;"></div>
+
+<script type="text/javascript" src="//alinw.alicdn.com/platform/openwork/jssdk/sdk.min.js?t=20141114"></script>
+
+
+<script type="text/javascript">
+    TOP.ui('headhr', {
+        container: '#ais-remote-header',
+        pageWidth: '100%'// 支持head宽度为1000px,不设置默认为980px;支持100%的设置（整个页面）
+    })
+</script>
+<!-- E GLOBAL HTML   -->

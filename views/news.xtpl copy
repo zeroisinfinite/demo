@@ -1,0 +1,173 @@
+{{set (jsName="index",cssName="projlist") }}
+{{extend ("./layout/default") }}
+{{#block ("content") }}
+<style type="text/css">
+    .share {
+        position: absolute;
+        z-index: 50;
+        display: none;
+        top: 30px;
+        overflow: hidden;
+    }
+    .jiathis_txt {
+        display: none;
+    }
+    .yh-con{
+    	display:block;margin:25px 0 70px;padding-bottom:20px;border-bottom:1px solid #000;
+    }
+    .flex-next {
+    	display:block;position:absolute;top:50%;left:94%;right:auto; z-index:500; background:url(../images/arrowRightNavigBook.png) no-repeat; width:20px; height:35px;
+    }
+    .flex-prev {display:block;position:absolute;top:50%;left:3%;right:auto; z-index:500; background:url(../images/arrowLeftNavigBook.png) no-repeat; width:20px; height:35px;
+    }
+  
+@media (max-width : 767px) {
+  .yh-con .flexslider img{width: 280px;}
+  a.flex-prev , a.flex-next {display: none!important;}
+  }
+</style>
+  <script type="text/javascript" src="http://v3.jiathis.com/code/jiathis_m.js" charset="utf-8"></script> 
+  <div class="yh-content"> 
+   <div class="yh-home-con"> 
+    <!-- yh-con的样式为通用样式 --> 
+    <div class="yh-con"> 
+     <div class="yh-new-tle">
+      YOUHOO
+      <br />NEWS 
+     </div> 
+     <nav class="yh-new" data-filter="" data-url="/zhs-cn/lv-now"> 
+      <button type="button" class="yh-new-btn" data-togglecontent-autoclose="">主题</button> 
+     </nav> 
+    </div> 
+    <div class="yh-new-fg"> 
+    </div> 
+    <div class="yh-con visite"> 
+     <div style=" float:right;position:relative;"> 
+      <button id="Button1" type="button" data-togglecontent-autoclose="" class="showBtn">分享</button> 
+      <div class="share" style="position:absolute;"> 
+       <div class="jiathis_style_m">
+        <div class="jiathis_style_32x32"> 
+         <span class="jiathis_txt">分享到：</span> 
+         <a class="jiathis_button_qzone" onclick="jiathis_mh5.sendTo('qzone');" title="分享到QQ空间"><span class="jiathis_txt jtico jtico_qzone"></span></a> 
+         <a class="jiathis_button_tsina" onclick="jiathis_mh5.sendTo('tsina');" title="分享到新浪微博"><span class="jiathis_txt jtico jtico_tsina"></span></a> 
+         <a class="jiathis_button_tqq" onclick="jiathis_mh5.sendTo('tqq');" title="分享到腾讯微博"><span class="jiathis_txt jtico jtico_tqq"></span></a> 
+         <a class="jiathis_button_renren" onclick="jiathis_mh5.sendTo('renren');" title="分享到人人网"><span class="jiathis_txt jtico jtico_renren"></span></a> 
+         <a href="http://www.jiathis.com/share?url=http%3A%2F%2Fyouhoo.hk%2Fwap%2Fnews.aspx&amp;title=YOUHOO&amp;uid=1626433&amp;pic=http%3A%2F%2Fyouhoo.hk%2FimgFile%2Fjp9.jpg" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a> 
+        </div>
+       </div> 
+      </div> 
+     </div> 
+     <div class="yh-new-tle2">
+      潮牌美瞳“號外YOUHOO”
+     </div> 
+     <!-- 轮播广告 --> 
+     <div id="banner_tabs1" class="flexslider"> 
+      <ul class="slides clearfix" style=""> 
+       <li> <a title="" target="_blank" href="#"> <img src="/imgFile/version2/news/002.jpg" alt="" /> </a> </li> 
+      </ul> 
+      <div class="flex-direction-nav"> 
+       <li><a class="flex-prev" href="javascript:;"></a></li> 
+       <li><a class="flex-next" href="javascript:;"></a></li> 
+      </div> 
+     </div> 
+     <nav class="yh-new" data-filter="" data-url="/zhs-cn/lv-now"></nav> 
+     <div class="yh-new-jj">
+      <div>
+        &nbsp;潮牌美瞳“號外YOUHOO”正式进入中国&nbsp; 
+      </div>
+     </div> 
+     <div class="yh-new-more">
+      更多内容
+     </div> 
+    </div> 
+    <div class="yh-con visite"> 
+     <div style=" float:right;position:relative;"> 
+      <button id="Button2" type="button" data-togglecontent-autoclose="" class="showBtn">分享</button> 
+      <div class="share" style="position:absolute;"> 
+       <div class="jiathis_style_m">
+        <div class="jiathis_style_32x32"> 
+         <span class="jiathis_txt">分享到：</span> 
+         <a class="jiathis_button_qzone" onclick="jiathis_mh5.sendTo('qzone');" title="分享到QQ空间"><span class="jiathis_txt jtico jtico_qzone"></span></a> 
+         <a class="jiathis_button_tsina" onclick="jiathis_mh5.sendTo('tsina');" title="分享到新浪微博"><span class="jiathis_txt jtico jtico_tsina"></span></a> 
+         <a class="jiathis_button_tqq" onclick="jiathis_mh5.sendTo('tqq');" title="分享到腾讯微博"><span class="jiathis_txt jtico jtico_tqq"></span></a> 
+         <a class="jiathis_button_renren" onclick="jiathis_mh5.sendTo('renren');" title="分享到人人网"><span class="jiathis_txt jtico jtico_renren"></span></a> 
+         <a href="http://www.jiathis.com/share?url=http%3A%2F%2Fyouhoo.hk%2Fwap%2Fnews.aspx&amp;title=YOUHOO&amp;uid=1626433&amp;pic=http%3A%2F%2Fyouhoo.hk%2FimgFile%2Fjp9.jpg" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a> 
+        </div>
+       </div> 
+      </div> 
+     </div> 
+     <div class="yh-new-tle2">
+      街拍
+     </div> 
+     <!-- 轮播广告 --> 
+     <div id="banner_tabs2" class="flexslider"> 
+      <ul class="slides clearfix" style=""> 
+       <li style="display: none;"> <a title="" target="_blank" href="#"> <img src="/imgFile/jp1.jpg" alt="" /> </a> </li> 
+       <li style="display: none;"> <a title="" target="_blank" href="#"> <img src="/imgFile/jp4.jpg" alt="" /> </a> </li> 
+       <li style="display: none;"> <a title="" target="_blank" href="#"> <img src="/imgFile/jp21.jpg" alt="" /> </a> </li> 
+       <li style="display: none;"> <a title="" target="_blank" href="#"> <img src="/imgFile/jp5250.jpg" alt="" /> </a> </li> 
+       <li style="display: none;"> <a title="" target="_blank" href="#"> <img src="/imgFile/jp7.jpg" alt="" /> </a> </li> 
+       <li style="display: none;"> <a title="" target="_blank" href="#"> <img src="/imgFile/jp8.jpg" alt="" /> </a> </li> 
+       <li style="display: none;"> <a title="" target="_blank" href="#"> <img src="/imgFile/jp9.jpg" alt="" /> </a> </li> 
+       <li style="display: none;"> <a title="" target="_blank" href="#"> <img src="/imgFile/jp5253.jpg" alt="" /> </a> </li> 
+       <li style="display: none;"> <a title="" target="_blank" href="#"> <img src="/imgFile/jp5263.jpg" alt="" /> </a> </li> 
+       <li style="display: none;"> <a title="" target="_blank" href="#"> <img src="/imgFile/jp10.jpg" alt="" /> </a> </li> 
+      </ul> 
+      <div class="flex-direction-nav"> 
+       <li><a class="flex-prev" href="javascript:;"></a></li> 
+       <li><a class="flex-next" href="javascript:;"></a></li> 
+      </div> 
+     </div> 
+     <nav class="yh-new" data-filter="" data-url="/zhs-cn/lv-now"></nav> 
+     <div class="yh-new-jj">
+      <p class="MsoNormal" style="text-indent:21.0pt;"> 街拍已经成为了检验一个时尚品牌是否在当季潮流中占据一席之地的标志之一。作为香港人气潮牌的“號外<span>YOUHOO</span>”，引领着街拍时尚的潮流。 </p> 
+      <p class="MsoNormal" align="left" style="text-align:center;text-indent:21pt;"> 你爱哪一款？ </p> 
+      <p class="MsoNormal" style="text-indent:21.0pt;"> <span>——————</span>男神范<span>——————</span> </p>
+     </div> 
+     <div class="yh-new-more">
+      更多内容
+     </div> 
+    </div> 
+    <div class="yh-con visite"> 
+     <div style=" float:right;position:relative;"> 
+      <button id="Button3" type="button" data-togglecontent-autoclose="" class="showBtn">分享</button> 
+      <div class="share" style="position:absolute;"> 
+       <div class="jiathis_style_m">
+        <div class="jiathis_style_32x32"> 
+         <span class="jiathis_txt">分享到：</span> 
+         <a class="jiathis_button_qzone" onclick="jiathis_mh5.sendTo('qzone');" title="分享到QQ空间"><span class="jiathis_txt jtico jtico_qzone"></span></a> 
+         <a class="jiathis_button_tsina" onclick="jiathis_mh5.sendTo('tsina');" title="分享到新浪微博"><span class="jiathis_txt jtico jtico_tsina"></span></a> 
+         <a class="jiathis_button_tqq" onclick="jiathis_mh5.sendTo('tqq');" title="分享到腾讯微博"><span class="jiathis_txt jtico jtico_tqq"></span></a> 
+         <a class="jiathis_button_renren" onclick="jiathis_mh5.sendTo('renren');" title="分享到人人网"><span class="jiathis_txt jtico jtico_renren"></span></a> 
+         <a href="http://www.jiathis.com/share?url=http%3A%2F%2Fyouhoo.hk%2Fwap%2Fnews.aspx&amp;title=YOUHOO&amp;uid=1626433&amp;pic=http%3A%2F%2Fyouhoo.hk%2FimgFile%2Fjp9.jpg" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a> 
+        </div>
+       </div> 
+      </div> 
+     </div> 
+     <div class="yh-new-tle2">
+      品牌发布会
+     </div> 
+     <!-- 轮播广告 --> 
+     <div id="banner_tabs3" class="flexslider"> 
+      <ul class="slides clearfix" style=""> 
+       <li> <a title="" target="_blank" href="#"> <img src="/imgFile/version2/news/003.jpg" alt="" /> </a> </li> 
+      </ul> 
+      <div class="flex-direction-nav"> 
+       <li><a class="flex-prev" href="javascript:;"></a></li> 
+       <li><a class="flex-next" href="javascript:;"></a></li> 
+      </div> 
+     </div> 
+     <nav class="yh-new" data-filter="" data-url="/zhs-cn/lv-now"></nav> 
+     <div class="yh-new-jj">
+      香港人气潮牌美瞳“號外YOUHOO”品牌发布会
+     </div> 
+     <div class="yh-new-more">
+      更多内容
+     </div> 
+    </div> 
+    <div class="yh-new-moreandmore">
+     点击查看更多
+    </div> 
+   </div> 
+  </div>
+{{/block}}
